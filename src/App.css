@@ -11,7 +11,6 @@
 
 nav {
   position: fixed;
-  align-items: end;
   top: 0;
   width: 100%;
   background: #fff;
@@ -30,6 +29,10 @@ nav ul li {
 }
 
 section {
-  min-height: 30vh;
+  min-height: 20vh;
   padding: 60px 20px 20px;
+}
+
+section#about {
+  max-width: 600px;
 }
