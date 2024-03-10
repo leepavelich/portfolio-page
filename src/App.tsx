@@ -1,5 +1,5 @@
+import Hero from "./components/Hero";
 import About from "./components/About";
-import "./App.css";
 import WorkExperience from "./components/WorkExperience";
 import Projects from "./components/Projects";
 import AcademicPublications from "./components/AcademicPublications";
@@ -7,15 +7,13 @@ import Contact from "./components/Contact";
 
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
+import "./App.css";
 
 function App() {
   return (
@@ -53,7 +51,8 @@ function App() {
           </NavigationMenu>
         </div>
 
-        <main>
+        <main className="container">
+          <Hero />
           <About />
           <WorkExperience />
           <Projects />
