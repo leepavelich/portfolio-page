@@ -83,14 +83,11 @@ export default function Component() {
       <div className="space-y-4">
         {/* Name field */}
         <div className="space-y-2">
-          <Label htmlFor="name" className="text-gray-600 dark:text-gray-400">
-            Name
-          </Label>
+          <Label htmlFor="name">Name</Label>
           <Input
             id="name"
             name="name"
             placeholder="Enter your name"
-            className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             value={formData.name}
             onChange={handleChange}
           />
@@ -98,14 +95,11 @@ export default function Component() {
         </div>
         {/* Email field */}
         <div className="space-y-2">
-          <Label htmlFor="email" className="text-gray-600 dark:text-gray-400">
-            Email
-          </Label>
+          <Label htmlFor="email">Email</Label>
           <Input
             id="email"
             name="email"
             placeholder="Enter your email address"
-            className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
             value={formData.email}
             onChange={handleChange}
           />
@@ -113,25 +107,18 @@ export default function Component() {
         </div>
         {/* Message field */}
         <div className="space-y-2">
-          <Label htmlFor="message" className="text-gray-600 dark:text-gray-400">
-            Message
-          </Label>
+          <Label htmlFor="message">Message</Label>
           <Textarea
             id="message"
             name="message"
             placeholder="Please leave a message"
-            className="border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 h-24"
+            className="h-24"
             value={formData.message}
             onChange={handleChange}
           />
           {errors.message && <p className="text-red-500">{errors.message}</p>}
         </div>
-        <Button
-          type="submit"
-          className="w-full bg-gray-300 dark:bg-gray-700 text-black dark:text-white"
-        >
-          Submit
-        </Button>
+        <Button type="submit">Submit</Button>
       </div>
     </form>
   );
