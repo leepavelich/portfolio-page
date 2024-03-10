@@ -69,57 +69,59 @@ export default function Component() {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="contact border-2 border-gray-300 dark:border-gray-700 p-4 rounded-md shadow-md space-y-8"
-    >
-      <div className="space-y-2">
-        <h2 className="text-3xl font-bold">Contact Me</h2>
-        <p className="text-gray-500 dark:text-gray-400">
-          Please fill the below form and I will get back to you as soon as
-          possible.
-        </p>
-      </div>
-      <div className="space-y-4">
-        {/* Name field */}
+    <section id="contact">
+      <form
+        onSubmit={handleSubmit}
+        className="contact border-2 border-gray-300 dark:border-gray-700 p-4 rounded-md shadow-md space-y-8"
+      >
         <div className="space-y-2">
-          <Label htmlFor="name">Name</Label>
-          <Input
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            value={formData.name}
-            onChange={handleChange}
-          />
-          {errors.name && <p className="text-red-500">{errors.name}</p>}
+          <h2 className="text-3xl font-bold">Contact Me</h2>
+          <p className="text-gray-500 dark:text-gray-400">
+            Please fill the below form and I will get back to you as soon as
+            possible.
+          </p>
         </div>
-        {/* Email field */}
-        <div className="space-y-2">
-          <Label htmlFor="email">Email</Label>
-          <Input
-            id="email"
-            name="email"
-            placeholder="Enter your email address"
-            value={formData.email}
-            onChange={handleChange}
-          />
-          {errors.email && <p className="text-red-500">{errors.email}</p>}
+        <div className="space-y-4">
+          {/* Name field */}
+          <div className="space-y-2">
+            <Label htmlFor="name">Name</Label>
+            <Input
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              value={formData.name}
+              onChange={handleChange}
+            />
+            {errors.name && <p className="text-red-500">{errors.name}</p>}
+          </div>
+          {/* Email field */}
+          <div className="space-y-2">
+            <Label htmlFor="email">Email</Label>
+            <Input
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              value={formData.email}
+              onChange={handleChange}
+            />
+            {errors.email && <p className="text-red-500">{errors.email}</p>}
+          </div>
+          {/* Message field */}
+          <div className="space-y-2">
+            <Label htmlFor="message">Message</Label>
+            <Textarea
+              id="message"
+              name="message"
+              placeholder="Please leave a message"
+              className="h-24"
+              value={formData.message}
+              onChange={handleChange}
+            />
+            {errors.message && <p className="text-red-500">{errors.message}</p>}
+          </div>
+          <Button type="submit">Submit</Button>
         </div>
-        {/* Message field */}
-        <div className="space-y-2">
-          <Label htmlFor="message">Message</Label>
-          <Textarea
-            id="message"
-            name="message"
-            placeholder="Please leave a message"
-            className="h-24"
-            value={formData.message}
-            onChange={handleChange}
-          />
-          {errors.message && <p className="text-red-500">{errors.message}</p>}
-        </div>
-        <Button type="submit">Submit</Button>
-      </div>
-    </form>
+      </form>
+    </section>
   );
 }
