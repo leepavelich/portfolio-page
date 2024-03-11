@@ -78,7 +78,7 @@ export default function Projects() {
         <div className="space-y-1">
           <Card className="h-full hover:shadow-xl transition-shadow duration-300 ease-in-out">
             <a
-              href="https://github.com/leepavelich/spacex-graphs"
+              href="https://github.com/leepavelich/portfolio-page"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -95,7 +95,10 @@ export default function Projects() {
                 <div className="text-gray-500 dark:text-gray-400 mt-1">
                   Apr 2024
                 </div>
-                <CardDescription>The very page you're on!</CardDescription>
+                <CardDescription>
+                  The very page you're on! An experiment in rapid iteration with
+                  shadcn/ui
+                </CardDescription>
                 <div className="flex items-center space-x-2">
                   <div className="flex items-center">
                     TypeScript, React, Vite, shadcn/ui, Tailwind, Vercel
