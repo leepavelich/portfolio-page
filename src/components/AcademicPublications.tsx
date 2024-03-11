@@ -11,7 +11,7 @@ function AcademicPublications() {
         mechanics.
       </p>
       <div className="grid grid-cols-1 gap-6 max-w-3xl mt-4">
-        <div className="flex flex-col gap-1 mt-2">
+        <div className="flex flex-col gap-1 mt-2 hover:shadow-md">
           <a
             href="https://iopscience.iop.org/article/10.1088/1361-6404/abccfa/meta"
             target="_blank"
@@ -34,7 +34,7 @@ function AcademicPublications() {
             </p>
           </a>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 hover:shadow-md">
           <a
             href="https://www.nature.com/articles/s41598-017-17223-2"
             target="_blank"
@@ -57,7 +57,7 @@ function AcademicPublications() {
             </p>
           </a>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 hover:shadow-md">
           <a
             href="https://era.library.ualberta.ca/items/4835014b-1dbc-48e1-bbec-c175c87c9b03"
             target="_blank"
@@ -81,7 +81,7 @@ function AcademicPublications() {
             </p>
           </a>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 hover:shadow-md">
           <a
             href="https://pubs.aip.org/aapt/ajp/article/84/12/924/310750"
             target="_blank"
@@ -103,7 +103,7 @@ function AcademicPublications() {
             </p>
           </a>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 hover:shadow-md">
           <a
             href="https://pubs.aip.org/aapt/ajp/article-abstract/83/9/773/1056970/The-Kronig-Penney-model-extended-to-arbitrary?redirectedFrom=fulltext"
             target="_blank"

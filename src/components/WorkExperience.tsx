@@ -8,7 +8,7 @@ export default function WorkExperience() {
       </h2>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 min-w-44">
                 <p className="text font-medium">May 2022 - Feb 2024</p>
@@ -58,9 +58,9 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
-              <div className="flex flex-col gap-1 w-44">
+              <div className="flex flex-col gap-1 min-w-44 w-44">
                 {" "}
                 <p className="text font-medium">Jan 2022 - March 2024</p>
                 <p className="text text-gray-500 dark:text-gray-400">
@@ -82,7 +82,7 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 min-w-44">
                 {" "}
@@ -108,7 +108,7 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 min-w-44">
                 {" "}
@@ -134,7 +134,7 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 w-44">
                 {" "}
@@ -155,7 +155,7 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 w-44">
                 {" "}
@@ -174,7 +174,7 @@ export default function WorkExperience() {
       </div>
       <div className="space-y-6 mt-4">
         <div className="flex items-center space-x-4">
-          <Card className="w-full">
+          <Card className="w-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <CardContent className="flex space-x-4 mt-4">
               <div className="flex flex-col gap-1 w-44">
                 {" "}
