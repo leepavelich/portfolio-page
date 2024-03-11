@@ -51,7 +51,7 @@ export default function Hero() {
           </div>
         </div>
         <p className="max-w-[700px] text-gray-500 dark:text-gray-400 mt-4">
-          I build web applications. Welcome to my portfolio.
+          I build feature-rich web applications. Welcome to my portfolio.
         </p>
       </div>
     </section>
