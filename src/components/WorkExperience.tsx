@@ -145,9 +145,7 @@ export default function WorkExperience() {
               </div>
               <div className="ml-auto grid gap-1">
                 <p className="text font-medium">University of Alberta</p>
-                <p className=" text-gray-500 dark:text-gray-400">
-                  Condensed Matter Physics
-                </p>
+                <p className=" text-gray-500 dark:text-gray-400">Physics</p>
               </div>
             </CardContent>
           </Card>
