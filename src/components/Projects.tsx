@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <h2 className="text-2xl text-primary">Projects</h2>
-      <div className="grid auto-rows-auto md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid auto-rows-auto md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         <div className="space-y-1">
           <Card className="h-full hover:shadow-xl transition-shadow duration-300 ease-int-out">
             <a

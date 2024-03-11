@@ -24,27 +24,27 @@ export default function WorkExperience() {
                     top-performing graduates.
                   </p>
                   <p className="mt-3">
-                    Contributed to the development of the core products for a
-                    web/data/cyber boot camp, including a learning management
-                    system (Compass) and a service for connecting students with
-                    a staff of available mentors (Rudder). These applications
-                    were made up of a Rails backend and a React frontend. My
-                    work covered the full stack: architecting and modifying our
-                    data model for a ProstgreSQL database, adding API routes,
-                    refactoring to use the interactor pattern, adding features
-                    to the React front-end like an embedded Zoom client,
-                    migrating the client from JavaScript to TypeScript with Zod
-                    validation, and monitoring production with Sentry.
+                    I contributed to the development of their core products,
+                    including a learning management system (Compass) and a
+                    service for connecting students with a staff of available
+                    mentors (Rudder). These applications were comprised of a
+                    Rails backend and a React frontend. My work covered the full
+                    stack: architecting and modifying the data model for a
+                    ProstgreSQL database, adding API routes, refactoring to use
+                    the interactor pattern, adding features to the React
+                    front-end like an embedded Zoom client, migrating the client
+                    from JavaScript to TypeScript with Zod validation, and
+                    monitoring production with Sentry.
                   </p>
                   <p className="mt-3">
-                    Built and managed several Discord bots written in TypeScript
-                    with Node.js + Express that both students and mentors used.
-                    This included an AI assistant bot using the OpenAI API that
-                    made an initial attempt to resolve student assistance
-                    requests.
+                    I built and managed several Discord bots written in
+                    TypeScript with Node.js + Express that both students and
+                    mentors used. This included an AI assistant bot using the
+                    OpenAI API that made an initial attempt to resolve student
+                    assistance requests.
                   </p>
                   <p className="mt-3">
-                    Rose to head the Rudder team, mentoring new hires to get
+                    I rose to head the Rudder team, mentoring new hires to get
                     them rapidly up to speed and fostering an environment of
                     daily code reviews and issue generation through GitHub. I
                     was acknowledged for fostering a positive and productive
