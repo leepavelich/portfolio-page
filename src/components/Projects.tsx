@@ -101,7 +101,8 @@ export default function Projects() {
                 </CardDescription>
                 <div className="flex items-center space-x-2">
                   <div className="flex items-center">
-                    TypeScript, React, Vite, shadcn/ui, Tailwind, Vercel
+                    TypeScript, React, Vite, shadcn/ui, Tailwind, Vercel,
+                    EmailJS
                   </div>
                 </div>
               </CardContent>
