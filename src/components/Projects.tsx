@@ -86,6 +86,36 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-cover h-48"
+                  src="https://github.com/leepavelich/portfolio-page/blob/main/src/assets/portfolio.png?raw=true"
+                  width={400}
+                />
+              </CardHeader>
+              <CardContent className="p-4">
+                <CardTitle>Personal Portfolio</CardTitle>
+                <div className="text-gray-500 dark:text-gray-400 mt-1">
+                  Apr 2024
+                </div>
+                <CardDescription>The very page you're on!</CardDescription>
+                <div className="flex items-center space-x-2">
+                  <div className="flex items-center">
+                    TypeScript, React, Vite, shadcn/ui, Tailwind, Vercel
+                  </div>
+                </div>
+              </CardContent>
+            </a>
+          </Card>
+        </div>
+        <div className="space-y-1">
+          <Card className="h-full hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <a
+              href="https://github.com/leepavelich/spacex-graphs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CardHeader className="p-0">
+                <img
+                  alt="ui"
+                  className="object-cover h-48"
                   src="https://raw.githubusercontent.com/leepavelich/portfolio-page/f3e584031dac02a14c834b2132bac7942c6f72e9/src/assets/payload_mass_to_orbit_by_year.svg"
                   width={400}
                 />
