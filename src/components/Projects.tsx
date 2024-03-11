@@ -22,7 +22,7 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-cover h-48"
-                  src="src/assets/interpreter-ts.png"
+                  src="https://github.com/leepavelich/portfolio-page/blob/main/src/assets/interpreter-ts.png?raw=true"
                   width={400}
                 />
               </CardHeader>
@@ -53,7 +53,7 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-cover h-48"
-                  src="src/assets/codegpt.png"
+                  src="https://github.com/leepavelich/portfolio-page/blob/main/src/assets/codegpt.png?raw=true"
                   width={400}
                 />
               </CardHeader>
@@ -86,7 +86,7 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-cover h-48"
-                  src="src/assets/payload_mass_to_orbit_by_year.svg"
+                  src="https://raw.githubusercontent.com/leepavelich/portfolio-page/f3e584031dac02a14c834b2132bac7942c6f72e9/src/assets/payload_mass_to_orbit_by_year.svg"
                   width={400}
                 />
               </CardHeader>
@@ -119,7 +119,7 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-cover h-48"
-                  src="src/assets/redis.svg"
+                  src="https://raw.githubusercontent.com/leepavelich/portfolio-page/f3e584031dac02a14c834b2132bac7942c6f72e9/src/assets/redis.svg"
                   width={400}
                 />
               </CardHeader>
@@ -216,7 +216,7 @@ export default function Projects() {
                 <img
                   alt="ui"
                   className="object-contain h-48"
-                  src="src/assets/scheduler.png"
+                  src="https://github.com/leepavelich/portfolio-page/blob/main/src/assets/scheduler.png?raw=true"
                   width={400}
                 />
               </CardHeader>
