@@ -118,7 +118,7 @@ function AcademicPublications() {
               R. L. Pavelich and F. Marsiglio
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              <i>Sci Rep</i> <b>7</b>, 17041 (2017)
+              <i>Am. J. Physics</i> <b>83</b>, 773-781 (2015)
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
               My first paper where we took a technique my supervisor, Frank
