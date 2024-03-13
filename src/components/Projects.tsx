@@ -78,6 +78,38 @@ export default function Projects() {
         <div className="space-y-1">
           <Card className="h-full hover:shadow-xl transition-shadow duration-300 ease-in-out">
             <a
+              href="https://github.com/leepavelich/codecrafters-http-server-javascript"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CardHeader className="p-0">
+                <img
+                  alt="ui"
+                  className="object-cover h-48"
+                  src="https://app.codecrafters.io/assets/0f714c1ea976b8a06318.svg"
+                  width={400}
+                />
+              </CardHeader>
+              <CardContent className="p-4">
+                <CardTitle>HTTP Server</CardTitle>
+                <div className="text-gray-500 dark:text-gray-400 mt-1">
+                  Apr 2024
+                </div>
+                <CardDescription>
+                  Codecrafters challenge where I implemented an HTTP server
+                </CardDescription>
+                <div className="flex items-center space-x-2">
+                  <div className="flex items-center">
+                    JavaScript, Node.js, TCP, HTTP
+                  </div>
+                </div>
+              </CardContent>
+            </a>
+          </Card>
+        </div>
+        <div className="space-y-1">
+          <Card className="h-full hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <a
               href="https://github.com/leepavelich/portfolio-page"
               target="_blank"
               rel="noopener noreferrer"
@@ -163,10 +195,10 @@ export default function Projects() {
                   Mar 2023
                 </div>
                 <CardDescription>
-                  Codecrafters challenge where I implemented a toy Redis clone.
+                  Codecrafters challenge where I implemented a Redis clone.
                 </CardDescription>
                 <div className="flex items-center space-x-2">
-                  <div className="flex items-center">JavaScript</div>
+                  <div className="flex items-center">JavaScript, Redis</div>
                 </div>
               </CardContent>
             </a>
