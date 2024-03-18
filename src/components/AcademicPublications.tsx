@@ -98,7 +98,7 @@ function AcademicPublications() {
               <i>Am. J. Phys.</i> <b>84</b>, 924-935 (2016)
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-              My initial paper considered the one-dimensional case, and this paper
+              In my first paper I considered the one-dimensional case, and this paper
               extended that work to two dimensions.
             </p>
           </a>
