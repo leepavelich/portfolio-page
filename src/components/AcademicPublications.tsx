@@ -26,7 +26,7 @@ function AcademicPublications() {
               G. Forcade, D. van Paridon, R. L. Pavelich and F. Marsiglio
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-              <i>Eur. P. Physic.</i> <b>42</b> 025408 (2021)
+              <i>Eur. J. Physic.</i> <b>42</b> 025408 (2021)
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
               A followup paper that showed that the electron-hole asymmetry is
@@ -98,7 +98,7 @@ function AcademicPublications() {
               <i>Am. J. Phys.</i> <b>84</b>, 924-935 (2016)
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-              My initial paper consider the one-dimensional case, and this paper
+              My initial paper considered the one-dimensional case, and this paper
               extended that work to two dimensions.
             </p>
           </a>
